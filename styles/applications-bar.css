@@ -1,0 +1,40 @@
+/* FlexBox | Application bottom bar */
+.applications-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* styles | Application bottom bar */
+.applications-bar > .nav-items {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(185deg, #2D3037, #36383F);
+    border: 2px solid #5D5E5F; 
+    padding-top: 14px;
+}
+
+.text-style {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: sans-serif;
+    letter-spacing: -1.30px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.text-style:hover {
+    color: #00C0F0;
+}
+
+/* Capss text | Application bottom bar */
+.uppercase-text {
+    font-family: 'Familjen Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: -2.5px;   
+}

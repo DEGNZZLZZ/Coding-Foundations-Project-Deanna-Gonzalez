@@ -1,0 +1,92 @@
+/* Navbar style's & flexbox's | Top left-section */
+.navbar-top {
+    width: 100%;
+    height: 60px;
+    background-color: #0B0C0D;
+    color: #8B8F93;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.navbar-top > .left-section {
+    display: flex;
+    align-items: inherit;  
+}
+
+/* Logo style | Top left-section */
+.navbar-top > .left-section > .logo-image {
+    display: flex;
+    justify-content: center;
+    position: left;
+}
+
+.navbar-top > .left-section > .logo-image img {
+    width: 195px;
+    height: 38px;
+    margin-left: 15px;
+}
+
+/* Menulinks style's | Top left section */
+.explore-menu-links-wrapper {
+    font-size: 12.70px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: baseline;
+    flex-direction: column;
+    margin-left: 55px;
+}
+
+.explore-menu-links-wrapper > .explore {
+    font-size: 1.40em;
+    font-weight: bold;
+    color: #FFE65B;
+    transition: 2s;
+}
+
+.explore-menu-links-wrapper > .explore:hover {
+    color: #0B0C0D;
+    letter-spacing: 18px;
+}
+
+.explore-menu-links-wrapper > .menu-links {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-menu-links-wrapper > .menu-links > .nav-link a {
+    width: 130px;
+    text-align: justify;
+    font-family: 'Mada', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1.5s;
+}
+
+.explore-menu-links-wrapper > .menu-links > .nav-link a:hover {
+    color: #C3C4C3;
+}
+
+/* Spark & chevronIcon style | Top left section */
+.center-btn-wrapper > .btn {
+    background-color: #0B0C0D;
+    color: #cbcbcb; 
+    font-size: 22px;
+    font-family: inherit;
+    font-weight: bolder;
+    padding: 20px 0px 0px 32px;
+    border: 2px;    
+    outline: none;
+    transition: 1s;
+}
+
+.center-btn-wrapper > .btn:hover {
+    color: #ffffff;
+}

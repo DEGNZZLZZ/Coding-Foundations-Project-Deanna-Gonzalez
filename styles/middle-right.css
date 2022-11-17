@@ -1,0 +1,37 @@
+/* Background & FlexBox | Middle right wrapper */
+.middle-wrapper {
+    background: linear-gradient(135deg,#363A42,#282B31,#0C0D0F,#0B0C0D);
+    filter: saturate(75%);
+    background-size: cover;
+    width: 100%;
+    height: 576px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-wrapper {
+    margin-top: 36px;
+}
+
+/* Title & Img style | Middle right wrapper */
+.text-heading > h1 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.text-heading > h1 > span {
+    color: #00C0F0;
+    font-weight: bolder;
+}
+
+/* Image shadow | Middle right wrapper */
+.middle-wrapper > .right-wrapper > #imgcodepen {
+    width: 593px;
+    margin: 0px;   
+    float: right;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}

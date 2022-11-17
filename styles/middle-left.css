@@ -1,0 +1,81 @@
+/* Text's styles | Middle left wrapper */
+.left-wrapper {
+    width: 50%;
+    height: 485px;
+    padding: 0px 0px 0px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello-codepen-text {
+    font-size: 38px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    line-height: 48px;
+}
+
+.the-best-place-text {
+    padding: 28px 0px 0px 0px;
+    font-size: 35px;
+    font-family: 'Pontano Sans', sans-serif;
+    color: #B6B6B6;
+    letter-spacing: 1px;
+    line-height: 47px;
+}
+
+p {
+    margin: 0%;
+}
+
+/* Button's styles | Middle left wrapper */
+.left-wrapper > .btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-wrapper > .sing-up {
+    background-color: #49C37B;
+    color: #0B0C0D; 
+    font-size: 2.5em;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bolder;
+    padding: 20px 35px;
+    border-radius: 4px;
+    border: 2px;    
+    outline: none;
+    transition: 0.3s;
+}
+
+.buttons-wrapper > .sing-up:active{
+    color: #B6B6B6;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.buttons-wrapper > .learn-more {
+    background-color: #0B0C0D;
+    color: #ffffff; 
+    font-size: 2.5em;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bolder;
+    padding: 20px 35px;
+    border-radius: 4px;
+    border: 2px;    
+    outline: none;
+    transition: 0.3s;
+}
+
+.buttons-wrapper > .learn-more {
+    margin-left: 15px;
+}
+
+.buttons-wrapper > .learn-more:active {
+    color: #B6B6B6;
+    box-shadow: 5px 5px 30px rgba(255, 255, 255, 0.4);
+}
+ 
+.buttons-wrapper {
+    margin-top: 40px;
+}

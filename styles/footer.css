@@ -1,0 +1,9 @@
+/* end color stripe | Footer */
+.footer {
+    background-color: #191A1D;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 110px;
+    color: #191A1D;
+}
